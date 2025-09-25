@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Club Dragones de Baloncesto: excelencia deportiva, formación de jóvenes talentos y pasión por el baloncesto en Bello, Antioquia.">
+        <meta name="keywords"
+            content="Baloncesto, Club Deportivo, Dragones, Entrenamiento, Torneos, Jóvenes Talentos, Antioquia, Deportes, Bello">
+        <link rel="icon" type="image/png" href="../assets/PNG/logoDragones.png">
+        <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <title>Club Dragones de Baloncesto</title>
+    </head>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="../assets/PNG/logoDragones.png" alt="Club Dragones de Baloncesto">
+            </a>
+        </div>
+        <nav id="navBar" aria-label="Menú principal">
+            <ul>
+                <li><a class="link" href="../index.html">Inicio</a></li>
+                <li><a class="link" href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a class="link" href="./festivalInternacional.html">Festival Internacional</a></li>
+                <li><a class="link" href="./contacto.html">Contacto</a></li>
+                <li><a class="btn">Inscribirte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+            <header class="header-section">
+                <h1>Contacto</h1>
+                <p>¿Tienes alguna pregunta o quieres formar parte de los Dragones? ¡Estamos aquí para ayudarte!</p>
+            </header>
+        </section>
+        <section class="contact-section flex-row padding-sections">
+            <div class="contact-text ">
+                <p>Envíanos un mensaje</p>
+                <form action="#" method="post" class="contact-form">
+                    <div id="form-header">
+                        <h2>Formulario de Contacto</h2>
+                        <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible</p>
+                    </div>
+                    <div class="name-lastname">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="lastnames">Apellidos:</label>
+                        <input type="text" id="lastnames" name="lastnames" required>
+                    </div>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+
+                    <label for="phone">Teléfono:</label>
+                    <input type="phone" id="phone" name="phone" placeholder="+57 XXX XXX XX XX" required>
+
+                    <label for="subject">Asunto:</label>
+                    <input type="subject" id="subject" name="subject" placeholder="¿En qué podemos ayudarte?" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Ecribe tu mensaje aqui..."
+                        required></textarea>
+
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container flex-column">
+        <div class="footer-content flex-row">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <!-- <img src="./assets/PNG/logoDragones.png" alt="Logo del Club Dragones" style="width: 80px; height: auto;"> -->
+                    <h3>Dragones</h3>
+                </div>
+                <p>Club de baloncesto comprometido con la excelencia deportiva y el desarrollo de jóvenes talentos.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-whatsapp icon-social"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f icon-social"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram icon-social"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube icon-social"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <nav class="footer-nav">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="./festivalInternacional.html">Festival Internacional</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </nav>
+        </div>
+        <div class="footer-section">
+            <h3>Nuestras Categorías</h3>
+            <p>U18</p>
+            <p>U16</p>
+            <p>U14</p>
+            <p>U12</p>
+            <p>U10</p>
+            <p>U8</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Calle 50 #50-50, Bello-Antioquia</p>
+            <p>+57XXXXXXXXXX</p>
+            <p>info.dragones@gmail.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.3657831686728!2d-75.54777012716622!3d6.333998865445182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9eee34cda9%3A0x3b401791ea2d1814!2sCancha%20Baloncesto!5e0!3m2!1ses!2sco!4v1756872764789!5m2!1ses!2sco"
+                width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="text-align: center;">&copy; 2025 Club Dragones de Baloncesto. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
