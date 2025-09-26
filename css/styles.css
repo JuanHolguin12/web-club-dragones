@@ -21,18 +21,14 @@ body {
     background-color: #f4f4f4;
 }
 
-/* NavBar */
-/* #navBar {
-    background-color: var(--color-principal);
-
-}
- */
 nav ul {
     width: 100%;
     text-align: center;
     list-style: none;
+    gap: 0.2em;
 }
-p{
+
+p {
     margin-bottom: .7rem;
 }
 
@@ -40,12 +36,13 @@ p{
 
 .navbar li:not(:last-child) .nav-link {
     position: relative;
+    display: inline-block;
 }
 
 .navbar li .active::after {
-    width: 90% !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
+    width: 100% !important;
+    left: 0 !important;
+    /* transform: translateX(-50%) !important; */
 }
 
 .navbar li:not(:last-child) .nav-link::after {
@@ -99,6 +96,7 @@ footer h3 {
     text-align: center;
     margin: 1em 0;
 }
+
 /* .footer-section:not(:nth-child(1)) p {
     text-align: center;
 } */
@@ -112,8 +110,9 @@ footer h3 {
 }
 
 .icon-social {
-    font-size: 1em;
+    font-size: 1.5em;
     color: var(--text-opacity);
+    margin: 0 .3em;
 }
 
 
@@ -181,7 +180,7 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to right, #001B37, #007DFF);
+    background: var(--gradiente);
     color: white;
     padding: 5% 10%;
 }
@@ -289,13 +288,13 @@ h3 {
 
 .history-section img {
     border-radius: 10px;
-    width: 35%;
+    width: 75%;
     margin: 0 auto;
 }
 
 /* Nuestros Valores */
 .values-container {
-    gap: 5em;
+    gap: 1em;
     justify-content: center;
     margin-top: 2em;
 }
@@ -306,13 +305,17 @@ h3 {
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 12rem;
-    height: 13rem;
+    width: 16rem;
+    height: 15rem;
     text-align: center;
 }
 
-.card-icons img {
-    width: 7rem;
+.card-icons span {
+    background-color: #204b786b;
+    color: var(--color-principal);
+    font-size: 3em;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 50%;
 }
 
@@ -328,7 +331,7 @@ h3 {
 
 /* Nuestro Equipo */
 .team-container {
-    gap: 5em;
+    gap: 1em;
     justify-content: center;
     margin-top: 2em;
 }
@@ -446,6 +449,9 @@ h3 {
         margin-right: .8em;
     }
 
+    .history-section img{
+        width: 35%;
+    }
     .image-section img {
         box-shadow: 30px 30px 100px rgb(0, 0, 0), -30px -30px 100px rgba(255, 255, 255, 0.253);
     }

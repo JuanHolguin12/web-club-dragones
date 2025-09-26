@@ -22,7 +22,7 @@
 
 <body>
     <header class="header-container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Menú de Navegación Principal">
             <div class="container-fluid">
                 <div class="logo">
                     <a href="../index.html">
@@ -35,15 +35,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link" aria-current="page" href="./sobreNosotros.html">Sobre
+                                Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="./festivalInternacional.html">Festival
+                            <a class="nav-link active" aria-current="page" aria-disabled="true"
+                                href="./festivalInternacional.html">Festival
                                 Internacional</a>
                         </li>
                         <li class="nav-item">
@@ -56,20 +58,6 @@
                 </div>
             </div>
         </nav>
-        <!--         <div class="logo">
-            <a href="index.html">
-                <img src="../assets/PNG/logoDragones.png" alt="Club Dragones de Baloncesto">
-            </a>
-        </div>
-        <nav id="navBar" aria-label="Menú principal">
-            <ul>
-                <li><a class="link" href="../index.html">Inicio</a></li>
-                <li><a class="link" href="./sobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a class="link" href="#">Festival Internacional</a></li>
-                <li><a class="link" href="./contacto.html">Contacto</a></li>
-                <li><a class="btn">Inscribirte</a></li>
-            </ul>
-        </nav> -->
     </header>
     <main>
         <section class="main-section-img">
@@ -155,11 +143,10 @@
             </div>
         </section>
     </main>
-    <footer class="footer-container flex-column">
-        <div class="footer-content flex-row">
+    <footer class="footer-container">
+        <div class="footer-content d-md-flex">
             <div class="footer-section">
                 <div class="footer-logo">
-                    <!-- <img src="./assets/PNG/logoDragones.png" alt="Logo del Club Dragones" style="width: 80px; height: auto;"> -->
                     <h3>Dragones</h3>
                 </div>
                 <p>Club de baloncesto comprometido con la excelencia deportiva y el desarrollo de jóvenes talentos.</p>
@@ -193,10 +180,6 @@
                 <p>Calle 50 #50-50, Bello-Antioquia</p>
                 <p>+57XXXXXXXXXX</p>
                 <p>info.dragones@gmail.com</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.3657831686728!2d-75.54777012716622!3d6.333998865445182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9eee34cda9%3A0x3b401791ea2d1814!2sCancha%20Baloncesto!5e0!3m2!1ses!2sco!4v1756872764789!5m2!1ses!2sco"
-                    width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div class="footer-bottom">
