@@ -310,7 +310,7 @@ h3 {
     text-align: center;
 }
 
-.card-icons span {
+.card-icons .icon-value {
     display: inline-flex;
     /* hace que se comporte como contenedor flexible */
     align-items: center;
@@ -333,6 +333,9 @@ h3 {
     color: var(--text-opacity);
 }
 
+.text-bold{
+
+}
 .card-icons .icon {
     font-size: 5em;
     color: var(--color-principal);
