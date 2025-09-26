@@ -311,6 +311,16 @@ h3 {
 }
 
 .card-icons span {
+    display: inline-flex;
+    /* hace que se comporte como contenedor flexible */
+    align-items: center;
+    /* centra verticalmente el ícono */
+    justify-content: center;
+    /* centra horizontalmente el ícono */
+
+    width: 80px;
+    /* ancho fijo */
+    height: 80px;
     background-color: #204b786b;
     color: var(--color-principal);
     font-size: 3em;
@@ -449,9 +459,10 @@ h3 {
         margin-right: .8em;
     }
 
-    .history-section img{
+    .history-section img {
         width: 35%;
     }
+
     .image-section img {
         box-shadow: 30px 30px 100px rgb(0, 0, 0), -30px -30px 100px rgba(255, 255, 255, 0.253);
     }
