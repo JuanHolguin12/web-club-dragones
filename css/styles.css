@@ -145,10 +145,17 @@ section:not(:nth-child(1)) {
 
 /* .button-container :last-child:hover,
 .button-container :first-child:hover, */
+.btn{
+    background-color: var(--color-principal);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .btn-fill:hover,
 .btn-outline:hover,
 .btn:hover {
     background-color: var(--color-secundario);
+    color: white;
     border-color: transparent;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -192,8 +199,8 @@ h3 {
 /* seccion main sin imagen */
 .main-section {
     text-align: center;
-    padding: 3em 10%;
     color: white;
+    padding: 5% 10%;
     background: var(--gradiente);
 }
 
@@ -309,6 +316,9 @@ h3 {
     height: 15rem;
     text-align: center;
 }
+.rewards {
+    height: 18rem;
+}
 
 .card-icons .icon-value {
     display: inline-flex;
@@ -333,11 +343,9 @@ h3 {
     color: var(--text-opacity);
 }
 
-.text-bold{
 
-}
 .card-icons .icon {
-    font-size: 5em;
+    font-size: 80px;
     color: var(--color-principal);
     margin-bottom: 10px;
 }
@@ -376,7 +384,7 @@ h3 {
 
 /* Cards de Categorias */
 .category-cards-container {
-    gap: 5em;
+    gap: 1em;
     justify-content: center;
     margin-top: 2em;
 }
